@@ -12,9 +12,10 @@ Generating RSA private key, 2048 bit long modulus (2 primes)
 
 root@master:# cat pidumenk.key
 -----BEGIN RSA PRIVATE KEY-----
-MIIEowIBAAKCAQEApkd61vcW2DhtSYdYYp17qUlY0BmQNnXfpTWvnqUNNMCxQgOz
-/--------------------------------------------------------------/
-70c/4zlnduXsGUuArGibElEz0trHwTdlqCE05cUR+lrb09ELLm96
+...............................
+...............................
+...............................
+...............................
 -----END RSA PRIVATE KEY-----
 ```
 
