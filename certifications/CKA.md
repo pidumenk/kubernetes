@@ -2368,6 +2368,20 @@ Checking ip ranges:
 
 # 9. Design and Install k8s cluster
 
+## Prerequisites
+Choosing k8s infrastructure:
+* **Turnkey Solutions** - you provision the required VMs, using some kind of tools and scipts (kubeadm, kops, etc):
+	* You provision and configure VMs
+	* You use scripts to deploy cluster
+	* You maintain VMs yourself
+	* Eg: k8s on AWS using KOPS
+* **Hosted Solutions** - it's more like Kubernetes as a Service:
+	* K8s as a Service
+	* Provider provisions VMs
+	* Provider installs Kubernetes
+	* Provider maintains VMs
+	* Eg: GKE or EKS
+
 * Use kubeadm for on-prem
 * etcd can be put on another node for large clusters to enable HA.
 
