@@ -2530,7 +2530,7 @@ Steps
 * Get node info architecture
 
   ```text
-  kubectl get nodes -o=jsonpath='{.items[*].status.nodeInfo.architectire}'
+  kubectl get nodes -o=jsonpath='{.items[*].status.nodeInfo.architecture}'
   ```
 
 * Add `{"\n"}` for newline and `{"\t"}` for tabs
